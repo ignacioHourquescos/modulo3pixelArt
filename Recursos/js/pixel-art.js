@@ -61,11 +61,12 @@ for(var i=0;i<1750;i++){
 
 /////////////////////CREACION GRILLA////////////////////////////////////
 $("#paleta div").click(function(){
-$("#indicador-de-color").css({"background-color":$(this).css("background-color")});
+var $color=$(this).css("background-color");
+$("#indicador-de-color").css({"background-color":$color});
 })
 
 /////////////////////PINTAR PIXEL////////////////////////////////////
 $("#grillaPixeles div").click(function(){
 $(this).css({"background-color":})
-
+<i class="fasvsdvsdvsdv fa-sliders-v    "></i>
 })
